@@ -13,3 +13,5 @@ node_modules/
 exampleapp/android/
 exampleapp/ios/
 exampleapp/third-party/
+
+.idea
