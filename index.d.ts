@@ -46,6 +46,7 @@ export interface SectionedMultiSelectProps<ItemType> {
   selectText?: string;
   selectedText?: string | (() => void);
   renderSelectText?: (props: object) => void;
+  renderSelectTextComponent?: (label: string) => void;
   confirmText?: string;
   hideConfirm?: boolean;
   styles?: Styles;
